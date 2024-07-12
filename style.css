@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightsteelblue;
+}
+.container{
+    display: flex;
+    font-size: 20px;
+}
+.words_con{
+    position: absolute;
+    top: 40px;
+    left: 140px;
+    text-align: center;
+    width: 440px;
+}
+.words_con h1,p{
+    margin: 6px;
+}
+.left-con img{
+    height: 94vh;
+    width: 90vh;
+    padding: 20px;
+    margin-left: 40px;
+    border-radius: 46px;
+}
+.right-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 12%;
+}
+.contents{
+    border: 2px solid;
+    padding: 20px;
+    background-color: lightblue;
+}
+.contents h1{
+    margin: 0;
+}
+.head-con{
+    text-align: center;
+}
+.head-con h1{
+    letter-spacing: 4px;
+}
+.login_con{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.lbl{
+    font-size: 18px;
+    margin-top: 15px;
+}
+input{
+    font-size: 13px;
+    height: 30px;
+    width: 300px;
+}
+input:focus{
+    background-color: beige;
+}
+#fpwd{
+    float: right;
+    font-size: 15px;
+}
+button{
+    font-size: 15px;
+    /* height: 30px; */
+    width: 50%;
+    padding: 7px;
+    border-radius: 50px;
+    margin-left: 25%;
+    font-weight: 600;
+}
+button:hover{
+    background-color: steelblue;
+    color: white;
+}
+.btn{
+    margin-top: 15px;
+}
+.social{
+    text-align: center;
+    margin-top: 20px;
+}
+.social i{
+    font-size: 23px;
+    padding: 0 5px;
+}
+.social p{
+    padding-top: 10px;
+    font-size: 17px;
+}
+.social span{
+    font-weight: 600;
+}
+#tw{
+    color: cornflowerblue;
+}
+#fb{
+    color: blue;
+}
+#gg{
+    color: rgb(214, 30, 30);
+}
